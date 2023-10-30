@@ -115,7 +115,7 @@ header .wrapper .content-wrapper {
     clear: both;
     overflow: auto;
     color: #FFF;
-    background-image: url('/assets/PIA15415~orig.jpg'); /* Replace 'your-image-url.jpg' with the path to your background image */
+    background-image: url('../PIA15415~orig.jpg'); /* Replace 'your-image-url.jpg' with the path to your background image */
     background-color: transparent; /* Make the background color transparent */
     background-size: cover; /* This will cover the entire content area without stretching the image */
 

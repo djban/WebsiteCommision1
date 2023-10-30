@@ -26,11 +26,11 @@ header .wrapper .content-wrapper {
     float: left;
     color: #fff !important;
     height: 100%;
-    background-image: -webkit-linear-gradient(bottom, #1687ed 0%, #14375a 100%);
-    background-image: -moz-linear-gradient(bottom, #1687ed 0%, #14375a 100%);
-    background-image: -o-linear-gradient(bottom, #1687ed 0%, #14375a 100%);
-    background-image: -ms-linear-gradient(bottom, #1687ed 0%, #14375a 100%);
-    background-image: linear-gradient(to top, #1687ed 0%, #14375a 100%);
+    background-image: -webkit-linear-gradient(top, #555555 0%, #111111 100%);
+    background-image: -moz-linear-gradient(top, #555555 0%, #111111 100%);
+    background-image: -o-linear-gradient(top, #555555 0%, #111111 100%);
+    background-image: -ms-linear-gradient(top, #555555 0%, #111111 100%);
+    background-image: linear-gradient(bottom, #555555 0%, #111111 100%);
 }
 
 .sidebar .bio {
@@ -125,15 +125,16 @@ header .wrapper .content-wrapper {
     padding-bottom: 20px;
 }
 
+/* Icon color */
 .content .title i {
     float: left;
-    color: #233f5d;
+    color: #DDD;
     font-size: 26px;
     margin-right: 15px
 }
 
 .content .title h2 {
-    color: #555
+    color: #CCC
 }
 
 .content .title .item {
@@ -141,12 +142,12 @@ header .wrapper .content-wrapper {
 }
 
 .content .title .item h3 {
-    color: #777;
+    color: #DDD;
     margin-bottom: 5px
 }
 
 .content .title .item span {
-    color: rgba(35,63,93,0.9);
+    color: #999;
     font-weight: 300
 }
 
